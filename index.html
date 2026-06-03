@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Buscaminas PWA</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="top">
+<h1>Buscaminas</h1>
+<select id="difficulty">
+<option value="easy">Fácil</option>
+<option value="medium">Medio</option>
+<option value="hard">Difícil</option>
+</select>
+<button id="newGame">Nueva partida</button>
+</div>
+<div class="stats">
+<span>💣 <span id="minesLeft"></span></span>
+<span>⏱️ <span id="timer">0</span></span>
+</div>
+<div id="board"></div>
+<script src="app.js"></script>
+</body>
+</html>

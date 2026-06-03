@@ -1,0 +1,8 @@
+
+body{font-family:system-ui;background:#121212;color:#fff;margin:0;padding:10px;text-align:center}
+.top{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+#board{display:grid;justify-content:center;margin-top:10px;touch-action:manipulation}
+.cell{width:28px;height:28px;border:1px solid #444;background:#2a2a2a;display:flex;align-items:center;justify-content:center;font-weight:bold}
+.revealed{background:#555}
+.flag{background:#8b5cf6}
+button,select{padding:8px}
